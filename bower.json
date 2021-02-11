@@ -1,0 +1,36 @@
+{
+  "name": "realizejs",
+  "version": "0.8.37",
+  "authors": [
+    "Ariel Lindgren <ariel@wkm.com.br>",
+    "Pedro Jesus <pjesus@wkm.com.br>",
+    "Lucas Toledo <ltoledo@wkm.com.br>",
+    "Rafael Ferrari <rferrari@wkm.com.br>",
+    "Hudson Gomes"
+  ],
+  "description": "A rich set of UI components based on Material Design using React.js",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "homepage": "www.wkm.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+
+  "main": [
+    "dist/css/realize.css",
+    "dist/js/realize.js"
+  ],
+
+  "dependencies": {
+    "materialize": "0.97.0",
+    "jquery-serialize-object": "~2.5.0",
+    "string": "~3.3.0",
+    "jquery.inputmask":"~3.1.63"
+  }
+}

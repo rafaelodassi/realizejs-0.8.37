@@ -1,0 +1,71 @@
+.table tr th, .table tr td {
+  padding: 5px 2px;
+}
+
+.table .empty-message {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.table__actions > div {
+  overflow: hidden;
+  border-bottom: 1px solid #D0D0D0;
+  min-height: 37px;
+}
+
+.table__actions .button {
+  float: right;
+  margin-left: 1rem;
+}
+
+.table__actions .button:last-child {
+  margin-left: 0;
+}
+
+.table__selection-indicator {
+  float: left;
+  padding: 5px;
+  line-height: 25px;
+  font-size: 15px;
+  color: #26A69A;
+}
+
+.table-select {
+  position: relative;
+  top: 4px;
+  left: 0.5rem;
+}
+
+.table-header .table-header__name.sortable {
+  cursor: pointer;
+}
+
+.table-header .table-header__name.sortable.asc:after {
+  content: ' \25B4';
+}
+
+.table-header .table-header__name.sortable.desc:after {
+  content: ' \25BE';
+}
+
+.table-cell--currency, .table-cell--number, .table-cell--datetime, .table-cell--percentage {
+  white-space: nowrap;
+}
+
+.table-cell--number, .table-header--number, .table-cell--currency, .table-header--currency,
+.table-cell--percentage, .table-header--percentage {
+  text-align: right;
+}
+
+.table-cell {
+  position: relative;
+}
+
+.table-row__actions {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.clickable-row{
+  cursor: pointer;
+}
